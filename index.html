@@ -128,7 +128,7 @@
     </div>
     <div class="form-section row">
       <div class="form-wrapper col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-        <form method="POST" action="" name="contact-form" role="form">
+        <form method="POST" action="http://formspree.io/veronika@filmdock.cz" name="contact-form" role="form">
           <div class="row">
             <div class="col-md-4 col-lg-4">
               <div class="form-group">
@@ -146,6 +146,7 @@
                 <textarea placeholder="Zpráva" rows="6" id="message" class="form-control" name="message" required=""></textarea>
               </div>
           </div>
+          <input type="hidden" name="_next" value="http://www.filmdock.cz/#" />
           <div class="col-md-4 col-lg-4 text-center contact-button">
             <button class="btn-primary btn-contact btn-block" name="submit" type="submit">Odeslat</button>
           </div>
